@@ -1,5 +1,5 @@
 <h1 align="center">Calculator APP</h1>
-<marquee align="center">Console</marquee>
+<h3 align="center">Console</h3>
 
 
 <p align="left">
