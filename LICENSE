@@ -1,3 +1,29 @@
+#include <stdio.h>
+
+int main() {
+    int n;
+    printf("Masukkan angka (n): ");
+    scanf("%d", &n);
+
+    int current = 1;
+    int step = n;
+
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            if (j == n - 1) {
+                printf("%d\n", current);
+            } else {
+                printf("%d ", current);
+            }
+            current++;
+        }
+        current += step;
+        step--;
+    }
+
+    return 0;
+}
+
 Boost Software License - Version 1.0 - August 17th, 2003
 
 Permission is hereby granted, free of charge, to any person or organization
